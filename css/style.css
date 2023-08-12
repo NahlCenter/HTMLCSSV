@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*css*/
+}
+
+.container{
+  
+    width: 80%;
+    margin: auto;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.header{
+    background: gray;
+}
+
+.header-content{
+    overflow: hidden; /*to solve float problem*/
+}
+.header .logo {
+    width: 40%;
+    background: red;
+    float: left;
+}
+
+.header .logo img{
+    width: 80%;
+}
+
+.header .nav{
+    width: 60%;
+    background: green;
+    float: left;
+    list-style: none;
+}
+
+.header .nav li{
+    display: inline-block;
+}
